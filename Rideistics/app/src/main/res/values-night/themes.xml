@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Rideistics" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item> <!-- MODIFIED: Changed to white -->
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <!-- Ensuring general text is white on default dark backgrounds -->
+        <item name="android:textColorPrimary">@color/white</item> <!-- A slightly less prominent white -->
+        <item name="android:textColor">@color/white</item>
+
+        <!-- Ensuring window background is dark -->
+        <item name="android:windowBackground">@color/black</item> <!-- Or your preferred dark background color -->
+        <item name="colorSurface">@color/black</item> <!-- Surface colors for cards, sheets, etc. -->
+        <item name="colorOnSurface">@color/white</item> <!-- Text color on surface colors -->
+    </style>
+</resources>

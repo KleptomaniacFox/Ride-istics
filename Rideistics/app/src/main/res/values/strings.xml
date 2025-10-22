@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Rideistics</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Profile</string>
+    <!-- ... your existing strings ... -->
+
+    <!-- Profile Section Strings -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_picture_content_description">User\'s profile picture</string>
+    <string name="profile_name_hint">Full Name</string>
+    <string name="profile_state_label">State</string>
+    <string name="profile_city_label">City</string>
+    <string name="profile_vehicle_name_hint">Vehicle Name / Model</string>
+    <string name="profile_documents_title">My Documents</string>
+    <string name="profile_button_upload_document">Upload New Document</string>
+    <string name="profile_emergency_contacts_title">Emergency Contacts</string>
+    <string name="profile_emergency_police">Police: 100</string>
+    <string name="profile_emergency_ambulance">Ambulance: 108</string>
+    <string name="profile_emergency_fire">Fire Brigade: 101</string>
+    <string name="profile_emergency_women_helpline">Women Helpline: 1090</string>
+    <string name="profile_disaster_management">Disaster Management: 1077</string>
+
+</resources>
